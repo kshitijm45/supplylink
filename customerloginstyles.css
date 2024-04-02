@@ -6,6 +6,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #f5f7fa;
 }
 
 #titlebar {
@@ -38,6 +39,7 @@ body {
 }
 
 .form-container {
+  margin-top: 3.5rem;
   width: 90%;
   max-width: 450px;
   position: absolute;

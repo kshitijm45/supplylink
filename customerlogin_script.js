@@ -5,6 +5,7 @@ let cityfield = document.getElementById("citytext");
 let zipfield = document.getElementById("ziptext");
 let title = document.getElementById("title");
 let homebtn = document.getElementById("home_button");
+let enterbtn = document.getElementById("enter");
 
 signinbtn.onclick = function () {
   namefield.style.display = "none";
@@ -26,4 +27,8 @@ signupbtn.onclick = function () {
 
 homebtn.addEventListener("click", function () {
   window.location.href = "index.html";
+});
+
+enterbtn.addEventListener("click", function () {
+  window.location.href = "customerlanding.html";
 });
