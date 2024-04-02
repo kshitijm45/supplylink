@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#titlebar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+#title_text {
+  color: #4caf4f;
+  font-size: clamp(1.7rem, 7vw, 3rem);
+}
+
+#home_button {
+  border: 1.5px solid #4caf4f;
+  color: #4caf4f;
+  background-color: white;
+  padding: 7px;
+  width: clamp(5rem, 10vw, 8rem);
+  font-family: Poppins;
+  font-weight: 800;
+  font-size: clamp(1rem, 4vw, 1.5rem);
+}
+
+#home_button:hover {
+  background-color: #4caf4f;
+  color: white;
+}
+
+#main {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height: 35rem;
+  text-align: left;
+  flex-grow: 1;
+  min-width: 50rem;
+}
+
+#main_img {
+  display: block;
+  width: 40rem;
+}
+
+.text_cultivating {
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: left;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: "Inter";
+}
+
+.text_optimizing {
+  color: #4caf4f;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: left;
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+  font-family: "Inter";
+}
+
+.text_seamless {
+  color: grey;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: left;
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+  font-family: "Inter";
+}
+
+#customer_button {
+  color: white;
+  background-color: #4caf4f;
+  padding: 1rem;
+  font-family: Poppins;
+  font-weight: 500;
+  border: none;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+#supplier_button {
+  color: white;
+  background-color: #4caf4f;
+  padding: 1rem;
+  font-family: Poppins;
+  font-weight: 500;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+#customer_button:hover {
+  background: white;
+  color: #4caf4f;
+  border: 1.5px solid #4caf4f;
+  cursor: pointer;
+}
+
+#supplier_button:hover {
+  background: white;
+  color: #4caf4f;
+  border: 1.5px solid #4caf4f;
+  cursor: pointer;
+}
+
+#main_desk {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+#buttons_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
